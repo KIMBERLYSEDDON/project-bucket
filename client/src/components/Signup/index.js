@@ -26,6 +26,7 @@ export default function Signup() {
 
     Axios.post("https://api.cloudinary.com/v1_1/djhw1foiq/image/upload", formData).then((response) => {
       const userAvatar = response.data.url
+      console.log(response)
       console.log(userAvatar)
         setFormState({
           ...formState,
@@ -61,6 +62,7 @@ export default function Signup() {
   
 
   const paperStyle = { padding: "30px 20px", width: 300, margin: "20px auto" };
+  const uploadButton = { padding: "0px", border: "1px solid green"};
   const headerStyle = { margin: 0 };
   const avatarStyle = { backgroundColor: "#77D47D" };
   const submitStyle = { backgroundColor: "#77D47D", marginTop:10};
@@ -114,7 +116,7 @@ export default function Signup() {
           <input type="file" name="avatar" onChange={(e)=> {
             setImageSelected(e.target.files[0])
             }} />
-            <Button size="small" onClick={uploadImage}>Use the 'Choose File' Button to upload an image for your avatar.</Button>
+            <Button style={uploadButton} size="small" onClick={uploadImage}>CLICK HERE TO UPLOAD IMAGE</Button>
             </div>
           <Button
             id="signupSubmit"

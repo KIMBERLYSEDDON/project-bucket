@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mcnultyshane/project-bucket.git"
+    "url": "git+https://github.com/KIMBERLYSEDDON/project-bucket.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mcnultyshane/project-bucket/issues"
+    "url": "https://github.com/KIMBERLYSEDDON/project-bucket/issues"
   },
-  "homepage": "https://github.com/mcnultyshane/project-bucket#readme",
+  "homepage": "https://github.com/KIMBERLYSEDDON/project-bucket#readme",
   "devDependencies": {
     "concurrently": "^6.2.1"
   },

@@ -133,7 +133,7 @@ export default function CampaignCard(props) {
               component="p"
               style={{ textAlign: "center" }}
             >
-              Philadelphia, PA
+              Welcome to your profile!
             </Typography>
           </CardContent>
           <CardActions className={classes.profileCardButtons}>
