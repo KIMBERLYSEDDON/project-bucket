@@ -102,19 +102,19 @@ const NewCampaign = () => {
             <div>
               <Typography variant="h5">Location</Typography>
               <TextField
-                name="long"
-                onChange={handleChange}
-                fullWidth
-                style={textInputStyle}
-                label="Longitude"
-                variant="outlined"
-              />
-              <TextField
                 name="lat"
                 onChange={handleChange}
                 fullWidth
                 style={textInputStyle}
                 label="Latitude"
+                variant="outlined"
+              />
+              <TextField
+                name="long"
+                onChange={handleChange}
+                fullWidth
+                style={textInputStyle}
+                label="Longitude"
                 variant="outlined"
               />
             </div>
